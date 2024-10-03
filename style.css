@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-body{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.form{
+    display: grid;
+    width: 100%;
+}
+
+.form input[type=text],[type=number],[type=email]{
+    padding: 5px;
+}
+
+.form label{
+    font-weight: 800;
+}
+
+.button button{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}
